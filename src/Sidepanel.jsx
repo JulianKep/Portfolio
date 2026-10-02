@@ -1,7 +1,7 @@
 import FolderEntry from "./FolderEntry";
 import FileEntry from "./FileEntry";
 
-export default function Sidepanel(){
+export default function Sidepanel({ onSelect }){
 
     return (
 
@@ -9,8 +9,8 @@ export default function Sidepanel(){
             <FolderEntry name="CV"/>
             <FolderEntry name="Projects"/>
             <FolderEntry name="CV"/>
-            <FileEntry name="test"/>
-            <FileEntry name="test"/>
+            <FileEntry name="AI" onClick={() => onSelect("ai")}/>
+            <FileEntry name="Code" onClick={() => onSelect("code")}/>
             <FileEntry name="test"/>
         </div>
 
