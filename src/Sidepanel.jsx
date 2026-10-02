@@ -6,7 +6,7 @@ export default function Sidepanel({ onSelect }){
     return (
 
         <div id="sidepanel">
-            <FolderEntry name="CV"/>
+            <FileEntry name="Home" onClick={() => onSelect("home")}/>
             <FolderEntry name="Projects"/>
             <FolderEntry name="CV"/>
             <FileEntry name="AI" onClick={() => onSelect("ai")}/>

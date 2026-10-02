@@ -1,3 +1,5 @@
+import asciiArt from "../assets/ascii-art-text.png";
+
 export default function Home(){
 
 
@@ -7,16 +9,22 @@ export default function Home(){
 
             <div class="inner-text-content">
 
-                <h1>Wilkommen auf meiner Portfolio</h1>
-                <br/>
-                <p>Lorem ipsum dolor sit </p>
-                <br/>
 
                 <div id="terminal">
-                    <span id="terminal-symbol">$</span>
-                    <span> /home/julian ❯ </span>
-                    <span id="typed-chars">lsblk</span>
+                    <span id="terminal-1">$</span>
+                    <span id="terminal-2"> /home/julian ❯ </span>
+                    <span id="terminal-3">sudo greet_user</span>
+                    <img id="terminal-4"src={asciiArt}></img>
+                    <br/>
+                    <span id="terminal-5">$</span>
+                    <span id="terminal-6"> /home/julian ❯ </span>
                 </div>
+                <br/>
+                <p>Diese Seite </p>
+                <h2>AI</h2>
+                <p></p>
+
+
 
             </div>
 
